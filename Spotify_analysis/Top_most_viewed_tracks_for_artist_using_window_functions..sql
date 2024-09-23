@@ -17,6 +17,4 @@ from
 		views desc
 	)
 where 
-	top_rank <4
-
--- select * from spotify limit 5;
+	top_rank <4;
