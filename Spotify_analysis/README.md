@@ -53,7 +53,7 @@ order by
 	danceable desc
 limit 8;
 ```
-2. Find the top 5 tracks with the highest energy values.
+2. Find the top 10 tracks with the highest energy values.
 ```sql
 --  highest energy values
 select 
@@ -133,9 +133,7 @@ from
 		views desc
 	)
 where 
-	top_rank <4
-
--- select * from spotify limit 5;
+	top_rank <4;
 ```
 2. Write a query to find tracks where the liveness score is above the average.
 ```sql
