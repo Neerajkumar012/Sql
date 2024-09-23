@@ -224,7 +224,7 @@ To improve query performance, we carried out the following optimization process:
         - Execution time (E.T.): **1.426 ms**
         - Planning time (P.T.): **1.522 ms**
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
-      ![EXPLAIN After Index](https://github.com/Neerajkumar012/Sql/edit/main/Spotify_analysis/After_index.png)
+      (https://github.com/Neerajkumar012/Sql/edit/main/Spotify_analysis/After_index.png)
 
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
